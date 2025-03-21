@@ -18,7 +18,7 @@ def check_python_version():
     bool: True if the current Python version is valid, False otherwise.
     """
     min_version = (3, 10, 9)
-    max_version = (3, 11, 0)
+    max_version = (3, 12, 0)
     
     from packaging import version
     
